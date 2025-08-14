@@ -31,7 +31,7 @@ mongoose.connect('mongodb+srv://bharathreddy372k4:x2zGzB1LJaK6V6UF@flamesver2.eg
 
 app.use('/api/flames', require('./routes/flames'));
 
-const port = process.env.PORT || 5000; // Use the PORT environment variable provided by Render
+const port = 5000; // Use the PORT environment variable provided by Render
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
