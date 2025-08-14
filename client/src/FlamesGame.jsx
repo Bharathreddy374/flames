@@ -34,7 +34,7 @@ const FlamesGame = () => {
     setResult(relationship);
 
     try {
-      await fetch('http://localhost:5000/api/flames/save', {
+      await fetch('https://flames-0zky.onrender.com/api/flames/save', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name1, name2, result: relationship })
