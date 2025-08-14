@@ -7,7 +7,7 @@ app.use(express.json());
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://flames-nu.vercel.app/'
+  'https://flames-nu.vercel.app'
   // Add your Render frontend URL here once it's deployed
 ];
 
